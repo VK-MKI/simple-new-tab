@@ -1,7 +1,11 @@
 <script lang="ts">
-	const quote = fetch('https://dummyjson.com/quotes/random').then(res =>
-		res.json()
-	);
+	const quote = fetch('/quotes.json')
+		.then(res => res.json())
+		.then(data => {
+			const randomIndex = Math.floor(Math.random() * data.quotes.length);
+
+			return data.quotes[randomIndex];
+		});
 </script>
 
 <div>
@@ -9,8 +13,9 @@
 		<blockquote>
 			{quote.quote}
 		</blockquote>
+
 		<cite>
-			{quote.author}
+			— {quote.author}
 		</cite>
 	{/await}
 </div>
