@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: 'OpenDyslexic';
+		src:
+			url('/fonts/OpenDyslexic-Regular.woff2') format('woff2'),
+			url('/fonts/OpenDyslexic-Regular.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: 'OpenDyslexicMono';
+		src:
+			url('/fonts/OpenDyslexicMono-Regular.woff2') format('woff2'),
+			url('/fonts/OpenDyslexicMono-Regular.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+	}
+
+	body {
+		/* The default size for my chrome thing is 75% for some reason */
+		font-size: var(--font-size, 100%);
+
+		scrollbar-width: none;
+	}
+
+	h1,
+	h2,
+	h3 {
+		@apply text-accent;
+
+		font-weight: var(--heading-font-weight);
+	}
+
+	::-webkit-scrollbar {
+		appearance: none;
+		width: 0;
+	}
+
+	::-webkit-color-swatch {
+		border: none;
+	}
+
+	::-moz-color-swatch {
+		border: none;
+	}
+}
+
+@layer components {
+	.unfocused {
+		@apply bg-unfocused;
+	}
+}
+
+@layer utilities {
+	.flow > * + * {
+		@apply mt-6;
+	}
+}
