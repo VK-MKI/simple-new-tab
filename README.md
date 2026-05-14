@@ -8,9 +8,7 @@ This fork focuses on expanding customization, personalization, and quality-of-li
 
 ---
 
-## Preview
 
-```md
 ## Preview
 
 ![Main Interface](./screenshots/main.png)
@@ -20,7 +18,6 @@ This fork focuses on expanding customization, personalization, and quality-of-li
 ![Customization 1](./screenshots/settings2.png)
 
 ![Customization 2](./screenshots/settings3.png)
-```
 
 ---
 
