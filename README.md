@@ -11,15 +11,39 @@ This fork focuses on expanding customization, personalization, and quality-of-li
 
 ## Preview
 
-![Main Interface](./screenshots/main.png)
+<p align="center">
+  <img src="./screenshots/main.png" width="800" alt="Main interface">
+</p>
 
-![Settings Panel](./screenshots/settings1.png)
-
-![Customization 1](./screenshots/settings2.png)
-
-![Customization 2](./screenshots/settings3.png)
+**Main Interface**  
+The default landing page featuring customizable ASCII art, live clock, dynamic quotes, and quick-access links.
 
 ---
+
+<p align="center">
+  <img src="./screenshots/settings1.png" width="800" alt="General settings">
+</p>
+
+**General Settings**  
+Customize interface behavior, text styling, headings, accent colors, and visual preferences.
+
+---
+
+<p align="center">
+  <img src="./screenshots/settings2.png" width="800" alt="ASCII customization">
+</p>
+
+**ASCII Customization**  
+Edit, reposition, resize, recolor, or completely replace the center ASCII artwork.
+
+---
+
+<p align="center">
+  <img src="./screenshots/settings3.png" width="800" alt="Advanced customization">
+</p>
+
+**Advanced Customization**  
+Manage links, background images, fonts, integrations, and backup settings.
 
 ## Features
 
