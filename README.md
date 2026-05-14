@@ -10,8 +10,6 @@ This fork focuses on expanding customization, personalization, and quality-of-li
 
 ## Preview
 
-> Add your screenshots here.
-
 ```md
 ![Main Interface](your-screenshot-url-here)
 ![Settings Panel](your-screenshot-url-here)
